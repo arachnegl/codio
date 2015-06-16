@@ -1,0 +1,16 @@
+F
+======================================================================
+FAIL: test_hi (__main__.HiTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/codio/workspace/src/hi_name/tests.py", line 14, in test_hi
+    self.assertIn('hi, ', output, 'Try again')
+AssertionError: 'hi, ' not found in 'hi' : Try again
+
+Stdout:
+hi
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
